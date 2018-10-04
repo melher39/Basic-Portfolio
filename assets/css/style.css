@@ -3,17 +3,8 @@ body {
     background-image: url(../images/gravel.png);
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     color: #777777;
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
-}
-
-/* content area should not exceed this width */
-.content {
-    background-color: #ffffff;
-    width: 920px;
-    margin: 0 auto;
-    clear: both;
-    padding: 20px;
 }
 
 /* images resized */
@@ -26,40 +17,82 @@ body {
     width: 200px;
 }
 
-/* fonts and style specified for h1 */
-h1 {
-    border-bottom-style: solid;
-    border-color: #cccccc;
-    padding-bottom: 20px;
-    color: #4aaaa5;
-    font-family: "Georgia", Times, "Times New Roman", serif;
+header {
+    /* position: relative; */
+    background-color: #ffffff;
+    border-bottom: solid #cccccc;
+    overflow: hidden;
 }
 
+.top {
+    width: 960px;
+    margin: 0 auto;
+    /* position: relative; */
+    /* bottom: 75px; */
+ }
 
 #myname {
     float: left;
+    /* position: absolute; */
     padding: 30px;
+    margin: 0;
     background-color: #4aaaa5;
-    color: white;
+    color: #ffffff;
+    border: none;
 }
 
-header {
-    background-color: #ffffff;
-    padding: 50px;
-    border: #cccccc;
-    
-}
- 
-.nav {
-    float: right;
-    position: relative;
-    top: 60px;
+
+/* fonts and style specified for h1 */
+h1 {
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    color: #4aaaa5;
+    font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
 /* Changes hyperlink color and removes underscore */
 a {
     color: #777777;
     text-decoration: none;
+}
+ 
+nav {
+    display: block;
+    float: right;
+    margin-top: auto;
+    /* width: 10%; */
+    /* position: absolute; */
+    /* top: 60px; */
+    /* padding: 30 auto; */
+    background-color: black;
+     /* margin: 30 auto; */
+}
+
+/* content area should not exceed this width */
+section {
+    background-color: #ffffff;
+    max-width: 920px;
+    margin: 30px auto;
+    /* clear: both; */
+    padding: 20px;
+}
+
+
+#name-field,
+#email,
+#message {
+    width: 900px;
+    padding: 10px;
+}
+
+#selfie {
+    float: left;
+}
+
+p {
+    line-height: 200%;
+    
 }
 
 #submit-button {
@@ -69,14 +102,14 @@ a {
     padding: 10px;
     margin-top: 10px;    
 }
-.top {
-    width: 960px;
-    margin: 0 auto;
-    position: relative;
-    bottom: 70px;
-}
 
 footer {
     text-align: center;
     background-color: #666666;
+    padding: 20px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
