@@ -113,20 +113,22 @@ section {
 #message {
     width: 900px;
     padding: 10px;
+    /* overflow: hidden; */
 }
 
 #selfie {
     float: left;
+    margin: 10px 20px 20px 0;
 }
 
 p {
     line-height: 200%;
-    
+    /* clear: both; */
 }
 
 #submit-button {
     background-color: #4aaaa5;
-    color: white;
+    color: #ffffff;
     border: none;
     padding: 10px;
     margin-top: 10px;    
