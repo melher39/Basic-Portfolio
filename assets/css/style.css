@@ -119,6 +119,7 @@ section {
 #selfie {
     float: left;
     margin: 10px 20px 20px 0;
+    /* position: absolute; */
 }
 
 p {
