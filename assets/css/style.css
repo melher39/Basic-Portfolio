@@ -26,7 +26,7 @@ header {
 .top {
     width: 960px;
     margin: 0 auto;
- }
+}
 
  /* float my name to the left */
 #myname {
@@ -86,7 +86,6 @@ a {
     text-decoration: none;
 }
  
-
 /* content area should not exceed this total width = 960px */
 section {
     background-color: #ffffff;
@@ -103,7 +102,6 @@ section {
     width: 900px;
     padding: 10px;
 }
-
 
 /* profile picture resized and positioned */
 #selfie {
